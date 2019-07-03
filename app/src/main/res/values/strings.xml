@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">StudentVoiceHub05</string>
+
+    <string name="firebase_login">Firebase Login</string>
+    <string name="login_with_google">LOGIN WITH GOOGLE</string>
+    <string name="logout">logout</string>
+    <string name="Dashboard">dashboard</string>
+    <string name="Events">Events</string>
+    <string name="CampusInformation">Campus Information</string>
+    <string name="StudentRecommendations">Student Tips</string>
+    <string name="HelplineServices">Helpline Services</string>
+    <string name="Jobs">Jobs</string>
+    <string name="Externallinks">External links</string>
+    <string name="Recommendations">Recommendations</string>
+    <string name="BuyAndSell">Buy And Sell</string>
+    <string name="StudentVoice">Student Voice</string>
+    <string name="Report">Report</string>
+</resources>

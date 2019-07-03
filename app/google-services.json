@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "524802027509",
+    "firebase_url": "https://studentvoicehub-b4259.firebaseio.com",
+    "project_id": "studentvoicehub-b4259",
+    "storage_bucket": "studentvoicehub-b4259.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524802027509:android:1f91a8f94255af75",
+        "android_client_info": {
+          "package_name": "com.demin.studentvoicehub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524802027509-p8ol0dqnlurgglibbku342j4sfub7dv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.demin.studentvoicehub",
+            "certificate_hash": "59c6c9a328791f8fec03805f47c976a4b6b25e67"
+          }
+        },
+        {
+          "client_id": "524802027509-bds8tfdelg33unnm5err7qhidcfk4m67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTW5acqtMbxqnvFwSvFe5cWX0A4AF0WAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524802027509-bds8tfdelg33unnm5err7qhidcfk4m67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524802027509:android:76d96c0f6da17e4a",
+        "android_client_info": {
+          "package_name": "com.demin.studentvoicehub03"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524802027509-som00ncdp77g34dlcuu55hm9vhn9ad23.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.demin.studentvoicehub03",
+            "certificate_hash": "59c6c9a328791f8fec03805f47c976a4b6b25e67"
+          }
+        },
+        {
+          "client_id": "524802027509-bds8tfdelg33unnm5err7qhidcfk4m67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTW5acqtMbxqnvFwSvFe5cWX0A4AF0WAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524802027509-bds8tfdelg33unnm5err7qhidcfk4m67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524802027509:android:59cc9423eb4e4aff",
+        "android_client_info": {
+          "package_name": "com.demin.studentvoicehub04"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524802027509-dpa0c0p6e5mcfhml006djvu110kpre50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.demin.studentvoicehub04",
+            "certificate_hash": "59c6c9a328791f8fec03805f47c976a4b6b25e67"
+          }
+        },
+        {
+          "client_id": "524802027509-bds8tfdelg33unnm5err7qhidcfk4m67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTW5acqtMbxqnvFwSvFe5cWX0A4AF0WAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524802027509-bds8tfdelg33unnm5err7qhidcfk4m67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524802027509:android:e7511483fa2f08a9",
+        "android_client_info": {
+          "package_name": "com.demin.studentvoicehub05"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524802027509-n308bfm2bn3o3270qg5hluhiofvne9vr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.demin.studentvoicehub05",
+            "certificate_hash": "59c6c9a328791f8fec03805f47c976a4b6b25e67"
+          }
+        },
+        {
+          "client_id": "524802027509-bds8tfdelg33unnm5err7qhidcfk4m67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTW5acqtMbxqnvFwSvFe5cWX0A4AF0WAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524802027509-bds8tfdelg33unnm5err7qhidcfk4m67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

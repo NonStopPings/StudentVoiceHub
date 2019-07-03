@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demin.studentvoicehub05">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_student_voice_hub_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PostReport"></activity>
+        <activity android:name=".AddPostReport" />
+        <activity android:name=".Report" />
+        <activity
+            android:name=".HelplineServicesForStudent"
+            android:parentActivityName=".Hompage" />
+        <activity android:name=".PostHelplineServices" />
+        <activity android:name=".AddPostHelplineServices" />
+        <activity
+            android:name=".HelplineServices"
+            android:parentActivityName=".HomePageForAdmin" />
+        <activity
+            android:name=".StudentVoiceForStudent"
+            android:parentActivityName=".Hompage" />
+        <activity
+            android:name=".RecommendationsForStudent"
+            android:parentActivityName=".StudentRecommendationsForStudent" />
+        <activity android:name=".PostStudentVoice" />
+        <activity android:name=".AddPostStudentVoice" />
+        <activity
+            android:name=".StudentVoice"
+            android:parentActivityName=".HomePageForAdmin" />
+        <activity android:name=".PostRecommendations" />
+        <activity android:name=".AddPostRecommendations" />
+        <activity
+            android:name=".Recommendations"
+            android:parentActivityName=".StudentRecommendations" />
+        <activity
+            android:name=".JobsForStudent"
+            android:parentActivityName=".Hompage" />
+        <activity android:name=".PostJobs" />
+        <activity android:name=".AddPostJobs" />
+        <activity
+            android:name=".Jobs"
+            android:parentActivityName=".HomePageForAdmin" />
+        <activity
+            android:name=".StudentRecommendationsForStudent"
+            android:parentActivityName=".Hompage" />
+        <activity
+            android:name=".CampusInformationForStudent"
+            android:parentActivityName=".Hompage" />
+        <activity android:name=".AddPostCampusInformation" />
+        <activity android:name=".PostCampusInformation" />
+        <activity
+            android:name=".CampusInformation"
+            android:parentActivityName=".HomePageForAdmin" />
+        <activity
+            android:name=".StudentRecommendations"
+            android:parentActivityName=".HomePageForAdmin" />
+        <activity android:name=".ExternalLinks" />
+        <activity
+            android:name=".BuyAndSell"
+            android:parentActivityName=".StudentRecommendations" />
+        <activity android:name=".PostBuyAndSell" />
+        <activity android:name=".AddPostBuyAndSell" />
+        <activity
+            android:name=".BuyAndSellForStudent"
+            android:parentActivityName=".StudentRecommendationsForStudent" />
+        <activity
+            android:name=".EventsForStudent"
+            android:parentActivityName=".Hompage" />
+        <activity android:name=".AddPostActivity" />
+        <activity android:name=".PostEvents" />
+        <activity
+            android:name=".Events"
+            android:parentActivityName=".HomePageForAdmin" />
+        <activity
+            android:name=".HomePageForAdmin"
+            android:parentActivityName=".AdminLogin" />
+        <activity
+            android:name=".Hompage"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AdminLogin"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

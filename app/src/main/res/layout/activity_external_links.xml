@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    tools:context=".ExternalLinks">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/studentSupport"
+        android:text="Student Reps"
+        android:onClick="openStudentSupport"
+        android:background="@drawable/round_bg"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/keyDates"
+        android:layout_toRightOf="@id/studentSupport"
+        android:layout_marginTop="30dp"
+        android:text="Key Dates"
+        android:onClick="openkeyDates"
+        android:background="@drawable/round_bg"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/studentActivities"
+        android:layout_below="@id/studentSupport"
+        android:layout_marginTop="30dp"
+        android:text="Student Activities"
+        android:onClick="openstudentActivities"
+        android:background="@drawable/round_bg"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/dineInwithMIT"
+        android:layout_toRightOf="@id/studentActivities"
+        android:layout_marginTop="30dp"
+        android:text="Dine In with MIT"
+        android:onClick="opendineInwithMIT"
+        android:background="@drawable/round_bg"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/jobsLink"
+            android:layout_toRightOf="@id/studentActivities"
+            android:layout_marginTop="30dp"
+            android:text="Job Links"
+            android:onClick="opendjobsLink"
+            android:background="@drawable/round_bg"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>
